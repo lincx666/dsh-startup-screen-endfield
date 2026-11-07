@@ -1,0 +1,28 @@
+# NOTICE
+
+本项目是 [`6shenhonghong9/dsh-startup-screen`](https://github.com/6shenhonghong9/dsh-startup-screen)
+的**二次创作（魔改）版本**，视觉改造为"工业终端 / 协议协议"风格。
+
+- 原始项目：https://github.com/6shenhonghong9/dsh-startup-screen
+- 原作者：6shenhonghong9
+- 原始许可：MIT License（见 `LICENSE`）
+- 上游版本基线：v1.3.0
+
+## 本仓库的改动
+
+详见 `CHANGELOG.md` 与 `MOD-NOTES.md`。
+
+## 素材声明
+
+插件中的真声台词（`lib/assets/line-*.mp3`）、界面音效、DeepSeek 标识等素材，
+**版权归各自原作者 / 原作品权利人所有**。MIT 许可仅覆盖代码，不覆盖这些素材。
+
+**本仓库不包含背景音乐**（`lib/assets/bgm.mp3` 已被 `.gitignore` 排除）。
+若你自行放入音乐文件，请确保你拥有相应授权，本仓库不为其分发负责。
+
+本仓库分发代码仅为学习与交流用途，请勿商用、请勿二次分发素材文件。
+如相关权利人认为不妥，请联系删除。
+
+## 引用
+
+再分发时请保留本 `NOTICE`、原始项目链接与作者署名，以及 `LICENSE` 中的 MIT 声明。

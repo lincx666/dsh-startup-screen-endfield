@@ -1,0 +1,11 @@
+node_modules/
+*.log
+*.zip
+.DS_Store
+Thumbs.db
+
+# 背景音乐：个人使用，不随仓库分发
+lib/assets/bgm.mp3
+
+# 上游基线备份
+*-pristine.zip

@@ -1,0 +1,63 @@
+{
+  "name": "dsh-startup-screen",
+  "version": "1.4.0",
+  "description": "DSH 启动界面与启动动画 · 工业终端风格（基于 dsh-startup-screen v1.3.0 二次创作）：工程网格、琥珀配色、终端滚屏、频谱条、五幕协议流程、背景音乐与副歌跳转。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek-harness-desktop",
+    "startup",
+    "splash",
+    "boot-animation"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "test",
+    "docs",
+    "preview/index.html",
+    "open-preview.sh",
+    "打开预览.cmd",
+    "安装.cmd",
+    "cordis.patch.yml",
+    "README.md",
+    "INSTALL.md",
+    "DESKTOP.md",
+    "AUDIO-FIELDS.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/smoke-host.mjs && node test/smoke-splash.mjs && node test/smoke-client.mjs && node test/smoke-desktop-boot.mjs"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6shenhonghong9/dsh-startup-screen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/6shenhonghong9/dsh-startup-screen/issues"
+  },
+  "homepage": "https://github.com/6shenhonghong9/dsh-startup-screen#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "author": "沈宏宏"
+}
